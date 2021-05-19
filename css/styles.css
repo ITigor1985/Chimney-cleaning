@@ -46,6 +46,10 @@ li a {
   color: white;
   text-decoration: none;
 }
+
+li a:hover {
+  color: #fabe58;
+}
 .summary h4 {
   text-indent: 20px;
 }
