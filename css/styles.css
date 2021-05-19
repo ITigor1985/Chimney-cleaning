@@ -28,6 +28,19 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.summary {
+  background-color: grey;
+  padding: 5px 0;
+  color: white;
+}
+.summary p a {
+  color: white;
+  text-decoration: none;
+}
+.summary h4 {
+  text-indent: 20px;
+}
+
 .item_text {
   border: #fabe58 dotted 1px;
   font-size: 5px;
