@@ -19,6 +19,7 @@
 }
 .advantages .advantages_item {
   border-left: #fabe58 solid 5px;
+  border-right: #fabe58 solid 5px;
   box-sizing: border-box;
   max-width: 30%;
   margin: 10px 10px;
@@ -28,7 +29,9 @@
 }
 
 .item_text {
+  border: #fabe58 dotted 1px;
   font-size: 5px;
+  margin-bottom: 10px;
 }
 
 .item_text:hover {
