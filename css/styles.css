@@ -51,7 +51,7 @@ li a {
 }
 
 .vozgoranie {
-  width: 100%;
+  max-width: 100%;
 }
 
 .item_text {
