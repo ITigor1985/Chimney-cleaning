@@ -33,7 +33,19 @@
   padding: 5px 0;
   color: white;
 }
-.summary p a {
+.summary ul {
+  padding: 0 20px;
+  line-height: 1.5em;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.summary ul li a {
   color: white;
   text-decoration: none;
 }
