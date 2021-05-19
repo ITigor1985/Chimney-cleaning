@@ -36,6 +36,7 @@
 
 .item_text:hover {
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .item_image {
