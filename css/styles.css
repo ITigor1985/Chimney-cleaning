@@ -50,6 +50,10 @@ li a {
   text-indent: 20px;
 }
 
+.vozgoranie {
+  width: 100%;
+}
+
 .item_text {
   border: #fabe58 dotted 1px;
   font-size: 5px;
