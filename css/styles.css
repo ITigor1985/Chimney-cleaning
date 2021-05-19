@@ -38,7 +38,7 @@
   line-height: 1.5em;
 }
 
-li {
+.summary ul li {
   list-style-type: none; /* Убираем маркеры */
 }
 
