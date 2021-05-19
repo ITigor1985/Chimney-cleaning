@@ -39,13 +39,10 @@
 }
 
 li {
-  padding: 0;
-  margin: 0;
-
   list-style-type: none; /* Убираем маркеры */
 }
 
-.summary ul li a {
+li a {
   color: white;
   text-decoration: none;
 }
