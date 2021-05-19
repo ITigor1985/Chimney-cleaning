@@ -55,6 +55,9 @@ li a {
 }
 
 .item_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border: #fabe58 dotted 1px;
   font-size: 5px;
   margin-bottom: 10px;
@@ -62,9 +65,18 @@ li a {
   padding-right: 5px;
 }
 
+.fas {
+  font-size: 16px;
+  color: #fabe58;
+}
+
 .item_text:hover {
   font-size: 15px;
   padding: 5px;
+}
+
+div .item_text:hover .fas {
+  opacity: 0;
 }
 
 .item_image {
