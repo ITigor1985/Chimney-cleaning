@@ -151,9 +151,48 @@ TH {
   width: 30px;
   margin-right: 10px;
 }
+
+.knok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .tel_nomer a {
   text-decoration: none;
   color: white;
+}
+
+.knok-summary a {
+  text-decoration: none;
+  color: white;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: 5px;
+  width: 49%;
+  padding-top: 2px;
+  background-color: black;
+  flex-direction: row;
+  align-items: center;
+}
+.call a {
+  color: white;
+}
+
+.knok-summary {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: grey;
+  align-items: center;
+  font-size: 18px;
+  margin: 4px 5px 0 5px;
+  color: white;
+  padding: 2px 0px;
+  width: 49%;
 }
 @media screen and (max-width: 770px) {
   .cont_dim {
