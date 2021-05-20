@@ -131,6 +131,7 @@ TH {
 }
 
 .tel {
+  display: flex;
   box-sizing: border-box;
   width: 100%;
   background: black;
@@ -143,8 +144,8 @@ TH {
 }
 .tel_text {
   text-transform: uppercase;
-  align-self: center;
 }
+
 .tel_nomer img {
   height: 30px;
   width: 30px;
@@ -154,11 +155,15 @@ TH {
   text-decoration: none;
   color: white;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
   .cont_dim {
     line-height: 1;
     text-align: left;
     width: 100%;
+  }
+
+  .advantages {
+    display: flex;
   }
   .advantages .advantages_item {
     margin-bottom: 10px;
