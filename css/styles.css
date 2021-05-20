@@ -78,6 +78,10 @@ li a:hover {
   font-size: 15px;
   padding: 5px;
 }
+.item_text:focus {
+  font-size: 15px;
+  padding: 5px;
+}
 
 div .item_text:hover .fas {
   opacity: 0;
