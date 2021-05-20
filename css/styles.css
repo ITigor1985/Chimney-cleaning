@@ -5,7 +5,9 @@
   text-align: justify;
   font-family: "Roboto", sans-serif;
 }
-
+.why {
+  text-align: center;
+}
 .advantages {
   display: flex;
   flex-wrap: wrap;
