@@ -200,7 +200,18 @@ TH {
     text-align: left;
     width: 100%;
   }
-
+  .knok-summary {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: grey;
+    align-items: center;
+    font-size: 14px;
+    margin: 4px 5px 0 5px;
+    color: white;
+    padding: 5px 0px;
+    width: 49%;
+  }
   .advantages {
     display: flex;
   }
