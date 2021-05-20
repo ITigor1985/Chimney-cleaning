@@ -200,6 +200,13 @@ TH {
   padding: 4px 0px;
   width: 49%;
 }
+
+.caption-price {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
 @media screen and (max-width: 770px) {
   .cont_dim {
     line-height: 1;
