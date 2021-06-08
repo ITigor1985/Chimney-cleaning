@@ -201,6 +201,17 @@ TH {
   width: 49%;
 }
 
+.button-tel {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+.price {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
 .caption-price {
   text-align: center;
   font-weight: bold;
