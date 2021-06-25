@@ -1,21 +1,103 @@
 .cont_dim {
-    max-width: 900px;
+    max-width: 1170px;
     margin: auto;
     font-size: 16px;
-    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* -----------------------reset------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cont_dim ul {
+    padding-left: 0px;
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* -------------------------end reset--------------------- */
+
+
+/* ------------------------components-------------------- */
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* ------------------------end components-------------------- */
 
 .why {
     text-align: center;
 }
 
+.request-a-call {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 10px;
+}
+
+.request-a-call .text {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.call-link {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.call-link img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
 .advantages {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-top: -30px;
+    margin-left: -30px;
+    font-size: 1em;
+}
+
+.advantages .item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-left: #fabe58 solid 5px;
+    border-right: #fabe58 solid 5px;
+    padding: 10px 10px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .cont_dim p {
