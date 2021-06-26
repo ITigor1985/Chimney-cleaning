@@ -58,7 +58,7 @@ li {
 /* -----------------hero--------------------------------- */
 
 .hero {
-    background: #fff url('./images/dimoxod.jpg') no-repeat;
+    background: #fff url('../images/dimoxod.jpg') no-repeat;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
