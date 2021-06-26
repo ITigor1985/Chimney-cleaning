@@ -372,6 +372,22 @@ TH {
         text-align: left;
         width: 100%;
     }
+    .hero {
+        background: #fff url('../images/dimoxod.jpg') no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .advantages .item {
+        flex-basis: calc((100% - 30px) / 1);
+        margin-left: 30px;
+        margin-top: 30px;
+    }
     .knok-summary {
         display: flex;
         justify-content: center;
