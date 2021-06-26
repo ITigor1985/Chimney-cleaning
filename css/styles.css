@@ -5,6 +5,7 @@
     padding-left: 15px;
     padding-right: 15px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 
@@ -19,12 +20,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.cont_dim ul {
+ul,
+li {
     padding-left: 0px;
 }
 
@@ -51,9 +54,57 @@ h6 {
 
 /* ------------------------end components-------------------- */
 
-.why {
-    text-align: center;
+
+/* -----------------hero--------------------------------- */
+
+.hero {
+    background: #fff url('/images/dimoxod.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
+
+.hero-list {
+    display: flex;
+    text-align: left;
+}
+
+.hero-left {
+    font-size: 2em;
+    padding-left: 50px;
+    flex-grow: 2;
+}
+
+.hero-right {
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+
+.button {
+    display: inline-block;
+    color: rgb(43, 189, 43);
+    padding: 10px 15px;
+    border: #000 2px solid;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.button .hero-link {
+    color: rgb(43, 189, 43);
+    text-decoration: none;
+}
+
+.call-link.link {
+    text-decoration: none;
+}
+
+.call-link.link {
+    color: rgb(43, 189, 43);
+}
+
+
+/* ---------------end hero------------------------------- */
 
 .request-a-call {
     display: flex;
@@ -100,11 +151,6 @@ h6 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.cont_dim p {
-    text-indent: 20px;
-    color: black;
-}
-
 .advantages .advantages_item {
     border-left: #fabe58 solid 5px;
     border-right: #fabe58 solid 5px;
@@ -114,6 +160,10 @@ h6 {
     padding: 10px 10px 0px;
     font-size: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.why {
+    text-align: center;
 }
 
 .summary {
@@ -130,11 +180,6 @@ h6 {
 .summary ul li {
     list-style-type: none;
     /* Убираем маркеры */
-}
-
-li a {
-    color: white;
-    text-decoration: none;
 }
 
 li a:hover {
